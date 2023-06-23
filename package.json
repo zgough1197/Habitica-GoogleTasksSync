@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"lint": "eslint --cache --fix --ext ts ./",
+		"push-login": "npm run lint && clasp login && clasp push",
+		"push": "npm run lint && clasp push"
+	},
+	"dependencies": {
+		"@types/google-apps-script": "^1.0.59",
+		"@typescript-eslint/eslint-plugin": "^5.57.0",
+		"eslint-plugin-jsdoc": "^46.2.6"
+	},
+	"devDependencies": {
+		"eslint": "^8.37.0"
+	}
+}
